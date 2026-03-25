@@ -1,0 +1,30 @@
+# ============================================================
+# 設定（@で始まる行）
+# ============================================================
+
+# ブラウザ幅（px）
+@width 1600
+# @width 390
+
+# 共通のBasic認証（不要な場合は削除またはコメントアウト）
+@basic-auth nihonsoken2:test
+
+# スクロール間の待機時間（ms）アニメーションが重い場合は増やす
+@scroll-wait 300
+
+# ページ読み込み後の追加待機時間（ms）
+@wait-after-load 0
+
+# 出力ファイル名（省略すると screenshots_YYYYMMDD_HHMMSS.pdf になる）
+# @output 確認_20260324.pdf
+
+# User-Agent（スマホ表示を確認したいときなど）
+# @user-agent Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15
+
+# ============================================================
+# URL（1行に1つ）
+# ============================================================
+
+https://jri.jlweb.jp/recruit/new_graduates/
+https://jri.jlweb.jp/recruit/new_graduates/about/you_are_special/
+https://jri.jlweb.jp/recruit/new_graduates/about/philosophy/
